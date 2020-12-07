@@ -45,6 +45,7 @@ type StreamFilterParams struct {
 	Locations     []string `url:"locations,omitempty,comma"`
 	StallWarnings *bool    `url:"stall_warnings,omitempty"`
 	Track         []string `url:"track,omitempty,comma"`
+	TweetMode     string   `url:"tweet_mode,omitempty"`
 }
 
 // Filter returns messages that match one or more filter predicates.
